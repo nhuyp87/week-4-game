@@ -26,7 +26,7 @@ for (var i=0; i < crystalArray.length; i++) {
 
 	var crysImage = $("<img>"); 
 	crysImage.addClass("crystal-image");
-	crysImage.attr("src", "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg");
+	crysImage.attr("src", "../images/amethyst.jpg");
 	crysImage.attr("data-crystalvalue", crystalArray[i]);
 	$("#crystalImages").append(crysImage);
 
@@ -35,22 +35,15 @@ for (var i=0; i < crystalArray.length; i++) {
 
 
 // When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
-	$(".crystal-image").on("click", function() {
 
-		var crystalValue = ($(this).attr("data-crystalvalue"));
-    	crystalValue = parseInt(crystalValue);
-    	counter += crystalValue;
+$(".crystal-image").on("click", function() {
+	var crystalValue = ($(this).attr("data-crystalvalue"));
+    crystalValue = parseInt(crystalValue);
+	counter += crystalValue; 
+	this.append(counter); 
 
-    	$("#currentScore").append(counter); 
-
-    	alert("New score: " + counter);
-		if (counter === targetNumber) {
-		  alert("You win!");
-		}
-		else if (counter >= targetNumber) {
-		  alert("You lose!!");
-		}
-	});
+}); 
+	
 
 
 // Your game will hide this amount until the player clicks a crystal.
