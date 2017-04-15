@@ -18,16 +18,20 @@ var crystal3= Math.floor(Math.random() * 12);
 var crystal4= Math.floor(Math.random() * 12); 
 
 var crystalArray= [crystal1, crystal2, crystal3, crystal4]; 
+var images=["assets/images/crystal1.jpg", "assets/images/crystal2.jpg", "assets/images/crystal3.jpg", "assets/images/crystal4.jpg"]
 
 
-// There will be four crystals displayed as buttons on the page. Each crsytal will be assigned a number for 1 to 12. 
+// There will be four crystals displayed as buttons on the page. Each crystal will be assigned a number for 1 to 12. 
 
-for (var i=0; i < crystalArray.length; i++) {
+for (var i=0; i < images.length; i++) {
+
+
 
 	var crysImage = $("<img>"); 
 	crysImage.addClass("crystal-image");
-	crysImage.attr("src", "../images/amethyst.jpg");
-	crysImage.attr("data-crystalvalue", crystalArray[i]);
+	crysImage.attr("src", images[i]);
+	crysImage.attr("style", "height:200px","width:200px", "margin:25px")
+	// crysImage.attr("data-crystalvalue", crystalArray[i]);
 	$("#crystalImages").append(crysImage);
 
 }
