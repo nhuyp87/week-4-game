@@ -3,7 +3,7 @@ body {
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 16px;
 overflow: auto;
-
+margin-bottom: 100px;
 }
 
 h3 {
@@ -35,11 +35,11 @@ h3 {
 #pic1, #pic2, #pic3, #pic4  {
 
 	background-color: #b87373;
-	height: 180px;
-	width: 180px;
-	margin: 20px;
+	/*height: 250px;
+	width: 200px;
+	margin: 20px;*/
 	position: relative;
-	bottom:70px;
+	left: 40px;
 
 }
 
@@ -52,55 +52,64 @@ h3 {
 
 
 #number {
-	background-color: #9bbdc9;
+	
 	height: 150px;
-	width: 150px;
-	margin: 20px;
-	color: white;
+	width: 300px;
+	margin: 15px 20px 10px 20px;
+	color: black;
 	font-size: 20px;
 	font-weight: bold;
 	padding-top: 20px;
-	position: relative;
-	top: 30px;
+	text-align: center;
+	border: 1px solid #dedddd;
+	border-radius: 5px; 
+	
 
 }
 
 
 #totalScore {
 
-	background-color: #90a3b4;
+	
 	height: 150px;
-	width: 150px;
-	margin: 20px;
+	width: 300px;
+	margin: 15px 20px 10px 20px;
 	padding-top: 20px;
-	color: white;
+	color: black;
 	font-size: 20px;
 	font-weight: bold;
-	position: relative;
-	top: 30px;
+	border-color: black;
+	border: 1px solid #dedddd;
+	border-radius: 5px; 
+
+	
 
 }
 
 
 #score {
-	background-color: #757aa3;
+	
 	height: 150px;
-	width: 150px;
-	margin: 20px;
+	width: 300px;
+	margin: 15px 20px 10px 20px;
 	padding-top: 20px;
-	color: white;
+	color: black;
 	font-size: 20px;
 	font-weight: bold;
-	position: relative;
-	top: 30px;
+	text-align: center;
+	border: 1px solid #dedddd;
+	border-radius: 5px; 
+	
 
 }
 
 
 .crystal-image {
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 	margin: 15px;
+	position: relative;
+	left: 60px;
 }
 
 #counts {
