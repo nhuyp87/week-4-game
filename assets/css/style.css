@@ -48,7 +48,7 @@ body {
 }
 
 
-#randomNumber {
+#number {
 	background-color: #9bbdc9;
 	height: 150px;
 	width: 150px;
@@ -69,11 +69,18 @@ body {
 }
 
 
-#currentScore {
+#score {
 	background-color: #757aa3;
 	height: 150px;
 	width: 150px;
 	margin: 20px;
 	color: white;
 
+}
+
+
+.crystal-image {
+	height: 250px;
+	width: 250px;
+	margin: 15px;
 }
