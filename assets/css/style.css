@@ -1,5 +1,5 @@
 body {
-/*background: url("../images/background.png");*/
+background: url("../images/background.png");
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 16px;
 overflow: auto;
@@ -24,7 +24,7 @@ h3 {
 #pageName {
 
 	padding: 10px 0 10px 0;
-	background-color: rgba(240,128,128, .60);
+	background-color: rgba(49,105,138,.8);
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-size: 100px;
@@ -35,9 +35,6 @@ h3 {
 #pic1, #pic2, #pic3, #pic4  {
 
 	background-color: #b87373;
-	/*height: 250px;
-	width: 200px;
-	margin: 20px;*/
 	position: relative;
 	left: 40px;
 
@@ -63,6 +60,7 @@ h3 {
 	text-align: center;
 	border: 1px solid #dedddd;
 	border-radius: 5px; 
+	background-color: white;
 	
 
 }
@@ -81,6 +79,7 @@ h3 {
 	border-color: black;
 	border: 1px solid #dedddd;
 	border-radius: 5px; 
+	background-color: white;
 
 	
 
@@ -99,6 +98,7 @@ h3 {
 	text-align: center;
 	border: 1px solid #dedddd;
 	border-radius: 5px; 
+	background-color: white;
 	
 
 }
@@ -110,6 +110,7 @@ h3 {
 	margin: 15px;
 	position: relative;
 	left: 60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #counts {
