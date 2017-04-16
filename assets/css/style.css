@@ -24,7 +24,7 @@ h3 {
 #pageName {
 
 	padding: 10px 0 10px 0;
-	background-color: rgba(49,105,138,.8);
+	background-color: rgba(49,105,138,1);
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-size: 100px;

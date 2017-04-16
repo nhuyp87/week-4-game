@@ -72,7 +72,7 @@
 
 		if (counter===targetNumber) {
 			win++; 
-			$("#totalWin").html("Win: "+ win); 
+			$("#totalWin").html("Wins: "+ win); 
 
 			alert("YOU WIN!")
 
@@ -81,7 +81,7 @@
 		// The player loses if their score goes above the random number.
 		} else if (counter > targetNumber) {
 				loss++; 
-				$("#totalLoss").html("Loss: "+ loss); 
+				$("#totalLoss").html("Losses: "+ loss); 
 				alert("YOU LOSE!")
 				reset(); 
 		} 
